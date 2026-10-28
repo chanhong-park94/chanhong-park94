@@ -39,7 +39,7 @@
   <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
 </p>
 
-## 🚀 Featured Project
+## 🚀 Featured Projects
 
 <a href="https://github.com/chanhong-park94/kdt-schedule-dashboard">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=chanhong-park94&repo=kdt-schedule-dashboard&theme=transparent&hide_border=true&title_color=6E59A5&icon_color=6E59A5&text_color=333333"/>
@@ -47,6 +47,19 @@
 
 > **KDT 통합 운영 대시보드 (v3.6.0)** — 학사일정 · 출결 · 학업성취도 · 만족도 · 매출 · 강사 · 문의응대를 한 화면에서. HRD-Net · Apps Script · Airtable · Supabase · Slack 통합.
 > 🔗 [Live Demo](https://chanhong-park94.github.io/kdt-schedule-dashboard/)
+
+### 📑 KDT 제안서 관리 시스템 <sub>(비공개 · 사내용)</sub>
+
+> 정부 직업훈련 사업(KDT · AI 캠퍼스 · K-뉴딜 아카데미)의 **제안 업무 전 과정을 한 곳에서** 처리하는 시스템입니다. 공고를 버전 있는 규칙으로 바꾸고, 과정 · 인력 · 시설 · 실적 · 성과지표 원장으로 제안서를 쓰고 점검해 제출합니다. 모든 판단과 숫자는 근거 파일의 위치까지 거슬러 올라갈 수 있습니다.
+
+- 📜 **공고 → 규칙** — HWP · PDF · DOCX · XLSX 공고를 쪽 · 문단 위치까지 읽고, 출처가 붙은 규칙을 승인해 해시로 고정
+- 🧭 **과정 설계 · 성과지표** — 교과목 · 회차 · 성과지표를 스프레드시트 표로 붙여 넣고, 공고 기준(시간 · 비중 · 지역별 운영비 한도 · 필수 지표)을 자동 판정
+- ✅ **QA 108개 규칙** — 공고 · 과정 · 인력 · 시설 · 실적 · 제안서 · 제출을 근거와 함께 점검
+- 📝 **제안서 작성** — 공식 서식 섹션 버전 관리, 주장-근거 연결, 성과지표 · 교과목 편성표 · 운영비 표 바로 복사
+- 📦 **제출** — HRD-Net 입력 준비, JSON · XLSX 산출물, 제출 패키지와 접수증
+- 🔐 **신뢰성** — 행 단위 권한(RLS) · 감사 로그 · 정본 해시, 변경마다 DB 정책 테스트 2,300여 건 · E2E · 데이터 복원 드릴
+
+`Next.js 16` · `TypeScript` · `Supabase (PostgreSQL 17)` · `FastAPI` · `Playwright` · `pgTAP` · `Claude Code`
 
 ## 📊 GitHub Stats
 
